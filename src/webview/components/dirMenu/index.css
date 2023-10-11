@@ -1,0 +1,31 @@
+.dir-menu {
+  height: 100%;
+  overflow-y: scroll;
+  width: 150px;
+  border-right: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.dir-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.dir-item:hover .dir-name {
+  outline: 1px solid #ccc;
+}
+
+.dir-name {
+  padding: 5px 3px;
+}
+
+.dir-name.active {
+  outline: 1px solid #ccc;
+}
+
+.gap {
+  width: 12px;
+  height: 100%;
+}

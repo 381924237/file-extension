@@ -1,0 +1,53 @@
+.file-item {
+  border: 1px solid #ccc;
+  width: 200px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  min-height: 170px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 100px;
+}
+
+.btn-list {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-name,
+.copy-path {
+  border: 1px solid #ccc;
+  padding: 3px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 0 2px;
+}
